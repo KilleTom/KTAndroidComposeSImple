@@ -57,7 +57,7 @@ fun KTAndroidComposeSimpleTheme(
 
 |                        黑夜模式                         |                        明亮模式                         |
 | :-----------------------------------------------------: | :-----------------------------------------------------: |
-| <img src=".\document\d_splash.png" style="zoom:25%;" /> | <img src="D:\Desktop\l_splash.png" style="zoom:25%;" /> |
+| <img src=".\document\d_splash.png"/> | <img src=".\document\l_splash.png"/> |
 
 ## Day 2
 
@@ -65,7 +65,7 @@ fun KTAndroidComposeSimpleTheme(
 
 掌握 `Scaffold` 脚本架这个超级布局的使用，如何利用他实现侧滑、添加悬浮按钮、底部导航栏等。譬如实现一下页面：
 
-<img src=".\document\home_l.png" style="zoom:33%;" />
+<img src=".\document\home_l.png"/>
 
 ## Day 3
 
@@ -200,7 +200,7 @@ fun <T : Any> RefreshWidget(
 
 最终可实现到以下效果：
 
-<img src=".\document\l_model.gif" style="zoom:25%;" />
+<img src=".\document\l_model.gif"/>
 
 ## Day 4
 
