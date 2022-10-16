@@ -1,0 +1,123 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+//    id 'com.android.application'
+//    id 'kotlin-android'
+    id "kotlin-kapt"
+    id "kotlin-parcelize"
+    id "dagger.hilt.android.plugin"
+//    id "androidx.navigation.safeargs.kotlin"
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.ypz.ktandroidcomposesimple"
+        minSdk 26
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        compose true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion compose_version
+    }
+    packagingOptions {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+    }
+    buildToolsVersion '32.1.0-rc1'
+    namespace 'com.ypz.ktandroidcomposesimple'
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+
+    implementation 'androidx.compose.material3:material3:1.0.0-alpha08'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.1'
+    implementation 'androidx.activity:activity-compose:1.4.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation "androidx.compose.ui:ui:$compose_version"
+    implementation "androidx.compose.material:material:$compose_version"
+    implementation "androidx.compose.ui:ui-tooling-preview:$compose_version"
+    androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
+    debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
+    debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
+
+    //placeholder
+    implementation "com.google.accompanist:accompanist-placeholder-material:0.18.0"
+
+    //约束布局
+    implementation "androidx.constraintlayout:constraintlayout-compose:1.0.1"
+
+    //viewPager
+    implementation "com.google.accompanist:accompanist-pager:0.20.2"
+    implementation "com.google.accompanist:accompanist-pager-indicators:0.18.0"
+    //下拉刷新
+    implementation "com.google.accompanist:accompanist-swiperefresh:0.18.0"
+    //流式布局
+    implementation "com.google.accompanist:accompanist-flowlayout:0.18.0"
+
+    //hilt inject framework
+    implementation "com.google.dagger:hilt-android:2.38.1"
+    kapt "com.google.dagger:hilt-compiler:2.38.1"
+    implementation "androidx.hilt:hilt-navigation-compose:1.0.0-alpha03"
+    implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03"
+    implementation "androidx.compose.runtime:runtime-livedata:1.1.1"
+    kapt "androidx.hilt:hilt-compiler:1.0.0"
+
+    implementation("io.coil-kt:coil:1.4.0")
+    implementation("io.coil-kt:coil-compose:1.4.0")
+    implementation("io.coil-kt:coil-gif:1.4.0")
+
+    //http request
+    implementation "com.squareup.retrofit2:converter-gson:2.9.0"
+    implementation "com.squareup.retrofit2:retrofit:2.9.0"
+    implementation "com.google.code.gson:gson:2.8.6"
+
+    /** accompanist辅助插件 */
+    implementation "com.google.accompanist:accompanist-insets:0.18.0"
+    implementation "com.google.accompanist:accompanist-coil:0.15.0"
+    //系统ui控制器
+    implementation "com.google.accompanist:accompanist-systemuicontroller:0.18.0"
+
+    //数据保存，用于cookie持久化
+    implementation "androidx.datastore:datastore-preferences:1.0.0-rc02"
+    implementation "androidx.datastore:datastore-core:1.0.0-rc02"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:1.5.31"
+
+    //paging分页库
+    implementation "androidx.paging:paging-runtime:3.1.0-rc01"
+    testImplementation "androidx.paging:paging-common:3.1.0-rc01"
+    implementation "androidx.paging:paging-compose:1.0.0-alpha14"
+
+    implementation 'com.airbnb.android:lottie:5.2.0'
+    implementation "com.airbnb.android:lottie-compose:5.2.0"
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KTAndroidComposeSimple</string>
+    <string name="home">Home</string>
+    <string name="category">Category</string>
+    <string name="collection">Collection</string>
+    <string name="profile">Profile</string>
+</resources>
