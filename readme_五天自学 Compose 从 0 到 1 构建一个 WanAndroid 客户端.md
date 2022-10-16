@@ -6,7 +6,7 @@
 
 | 黑夜模式                                                     |                        明亮模式                         |
 | ------------------------------------------------------------ | :-----------------------------------------------------: |
-| <img src=".\document\d_model.gif" style="zoom: 25%;" /> | <img src=".\document\l_model.gif" style="zoom: 25%;" /> |
+| <img src=".\document\d_model.gif"/> | <img src=".\document\l_model.gif"/> |
 
 这篇文章主要是针对初学者如何自学 `Compose` 及 `MVI` ：
 
