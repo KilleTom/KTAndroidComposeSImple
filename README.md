@@ -6,7 +6,7 @@
 
 | 黑夜模式                                                     |                        明亮模式                         |
 | ------------------------------------------------------------ | :-----------------------------------------------------: |
-| <img src="https://github.com/KilleTom/KTAndroidComposeSImple/tree/master/app/src/main/assets/d_model.gif"/> | <img src="https://github.com/KilleTom/KTAndroidComposeSImple/tree/master/app/src/main/assets/l_model.gif" /> |
+| <img src="https://github.com/KilleTom/KTAndroidComposeSImple/tree/master/document/d_model.gif"/> | <img src="https://github.com/KilleTom/KTAndroidComposeSImple/tree/master/document/l_model.gif" /> |
 
 这篇文章主要是针对初学者如何自学 `Compose` 及 `MVI` ：
 
@@ -57,7 +57,7 @@ fun KTAndroidComposeSimpleTheme(
 
 |                        黑夜模式                         |                        明亮模式                         |
 | :-----------------------------------------------------: | :-----------------------------------------------------: |
-| <img src="https://github.com/KilleTom/KTAndroidComposeSImple/tree/master/app/src/main/assets/d_splash.png"  /> | <img src="https://github.com/KilleTom/KTAndroidComposeSImple/tree/master/app/src/main/assets/l_splash.png"  /> |
+| <img src="https://github.com/KilleTom/KTAndroidComposeSImple/tree/master/document/d_splash.png"  /> | <img src="https://github.com/KilleTom/KTAndroidComposeSImple/tree/master/document/l_splash.png"  /> |
 
 ## Day 2
 
@@ -65,7 +65,7 @@ fun KTAndroidComposeSimpleTheme(
 
 掌握 `Scaffold` 脚本架这个超级布局的使用，如何利用他实现侧滑、添加悬浮按钮、底部导航栏等。譬如实现一下页面：
 
-<img src="https://github.com/KilleTom/KTAndroidComposeSImple/tree/master/app/src/main/assets/home_l.png" />
+<img src="https://github.com/KilleTom/KTAndroidComposeSImple/tree/master/document/home_l.png" />
 
 ## Day 3
 
@@ -200,13 +200,13 @@ fun <T : Any> RefreshWidget(
 
 最终可实现到以下效果：
 
-<img src="https://github.com/KilleTom/KTAndroidComposeSImple/tree/master/app/src/main/assets/l_model.gif" />
+<img src="https://github.com/KilleTom/KTAndroidComposeSImple/tree/master/document/l_model.gif" />
 
 ## Day 4
 
 掌握一些开库库譬如：`coil`、`systemuicontroller`、`datastore` 等使用，基于这样譬如是实现一个登录页面的核心逻辑及个人中心页面逻辑
 
-<img src="https://github.com/KilleTom/KTAndroidComposeSImple/tree/master/app/src/main/assets/login_logout.gif"  />
+<img src="https://github.com/KilleTom/KTAndroidComposeSImple/tree/master/document/login_logout.gif"  />
 
 ## Day 5
 

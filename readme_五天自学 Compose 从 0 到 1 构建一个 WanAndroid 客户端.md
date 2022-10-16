@@ -6,7 +6,7 @@
 
 | 黑夜模式                                                     |                        明亮模式                         |
 | ------------------------------------------------------------ | :-----------------------------------------------------: |
-| <img src=".\app\src\main\assets\d_model.gif" style="zoom: 25%;" /> | <img src=".\app\src\main\assets\l_model.gif" style="zoom: 25%;" /> |
+| <img src=".\document\d_model.gif" style="zoom: 25%;" /> | <img src=".\document\l_model.gif" style="zoom: 25%;" /> |
 
 这篇文章主要是针对初学者如何自学 `Compose` 及 `MVI` ：
 
@@ -57,7 +57,7 @@ fun KTAndroidComposeSimpleTheme(
 
 |                        黑夜模式                         |                        明亮模式                         |
 | :-----------------------------------------------------: | :-----------------------------------------------------: |
-| <img src=".\app\src\main\assets\d_splash.png" style="zoom:25%;" /> | <img src="D:\Desktop\l_splash.png" style="zoom:25%;" /> |
+| <img src=".\document\d_splash.png" style="zoom:25%;" /> | <img src="D:\Desktop\l_splash.png" style="zoom:25%;" /> |
 
 ## Day 2
 
@@ -65,7 +65,7 @@ fun KTAndroidComposeSimpleTheme(
 
 掌握 `Scaffold` 脚本架这个超级布局的使用，如何利用他实现侧滑、添加悬浮按钮、底部导航栏等。譬如实现一下页面：
 
-<img src=".\app\src\main\assets\home_l.png" style="zoom:33%;" />
+<img src=".\document\home_l.png" style="zoom:33%;" />
 
 ## Day 3
 
@@ -200,13 +200,13 @@ fun <T : Any> RefreshWidget(
 
 最终可实现到以下效果：
 
-<img src=".\app\src\main\assets\l_model.gif" style="zoom:25%;" />
+<img src=".\document\l_model.gif" style="zoom:25%;" />
 
 ## Day 4
 
 掌握一些开库库譬如：`coil`、`systemuicontroller`、`datastore` 等使用，基于这样譬如是实现一个登录页面的核心逻辑及个人中心页面逻辑
 
-<img src=".\app\src\main\assets\login_logout.gif" style="zoom:33%;" />
+<img src=".\document\login_logout.gif" style="zoom:33%;" />
 
 ## Day 5
 
